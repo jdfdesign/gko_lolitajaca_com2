@@ -104,6 +104,7 @@ h6 {
 	
 }
 
+
 .newsletter,
 .retailers {
 	@include box-sizing(border-box);
@@ -143,6 +144,14 @@ h6 {
     background-repeat: no-repeat;
 	background-image: asset-url("120608_LolitaJaca_decoupe1.jpg", image);
 	background-color: $white;
+}
+
+.news {
+	background-size: contain;
+    background-position: top left;
+    background-repeat: no-repeat;
+	background-image: asset-url("120608_LolitaJaca_decoupe2.jpg", image);
+	background-color: $white;	
 }
 .flexslider {
 	margin-top: 100px;
