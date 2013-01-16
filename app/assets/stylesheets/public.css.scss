@@ -1,8 +1,8 @@
 
-@import "theme2/stylesheets/variables";
+@import "variables";
 @import "twitter/awesome-bootstrap";
 @import "gko/public/base";
-@import "theme2/stylesheets/navbar";
+@import "navbar";
 @import "flexslider/flexslider";
 
 .border {
@@ -80,7 +80,7 @@ h6 {
 	background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
-	background-image: asset-url("theme1/images/120608_LolitaJaca_05_057_RT-w1200-h800.jpg", image);
+	background-image: asset-url("120608_LolitaJaca_05_057_RT-w1200-h800.jpg", image);
 	.spirit-content {
 		background-color: rgba(255,255,255,.7);
 		padding: $baseLineHeight * 2;
@@ -93,7 +93,7 @@ h6 {
 	background-size: contain;
     background-position: top left;
     background-repeat: no-repeat;
-	background-image: asset-url("theme1/images/120608_LolitaJaca_01_115.jpg", image);
+	background-image: asset-url("120608_LolitaJaca_01_115.jpg", image);
 	background-color: $white;
 	min-height: 300px;
 
@@ -131,7 +131,7 @@ h6 {
 	background-size: contain;
     background-position: top left;
     background-repeat: no-repeat;
-	background-image: asset-url("theme2/images/120608_LolitaJaca_01_115.jpg", image);
+	background-image: asset-url("120608_LolitaJaca_01_115.jpg", image);
 	background-color: $white;
 
 }
@@ -141,7 +141,7 @@ h6 {
 	background-size: contain;
     background-position: top right;
     background-repeat: no-repeat;
-	background-image: asset-url("theme2/images/120608_LolitaJaca_decoupe1.jpg", image);
+	background-image: asset-url("120608_LolitaJaca_decoupe1.jpg", image);
 	background-color: $white;
 }
 .flexslider {

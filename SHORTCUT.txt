@@ -1,16 +1,16 @@
-cd ~/Github/gko_lolitajaca_com
+cd ~/Github/gko_lolitajaca_com2
 tail -f log/development.log
 
-cd ~/Github/gko_lolitajaca_com
+cd ~/Github/gko_lolitajaca_com2
 tail -f log/production.log
 
-cd ~/Github/gko_lolitajaca_com
+cd ~/Github/gko_lolitajaca_com2
 bundle install
 rails s
 
 bundle exec rake assets:precompile
 
-cd ~/Github/gko_lolitajaca_com
+cd ~/Github/gko_lolitajaca_com2
 bundle exec rake railties:install:migrations
 bundle exec rake db:migrate
 

@@ -10,10 +10,10 @@
 //= require twitter/bootstrap/modal.js
 
 //= require flexslider/jquery.flexslider
-//= require theme2/javascripts/jquery.throttledresize.js
-//= require theme2/javascripts/modernize.js
-//= require theme2/javascripts/util
-//= require theme2/javascripts/site
+//= require jquery.throttledresize.js
+//= require modernize.js
+//= require util
+//= require site
 
 
 var $window,$body,$header,$mainContainer;
