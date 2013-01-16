@@ -36,7 +36,7 @@ set :deploy_via, :remote_cache
 set :scm, 'git'
 #set :scm_username, "jdfdesign"
 #set :scm_account, 'jdfdesign'
-set :repository,  "git@github.com:jdfdesign/gko_lolitajaca2_com.git" #Github repository
+set :repository,  "github.com/jdfdesign/gko_lolitajaca_com2.git" #Github repository
 set :scm_passphrase, "PASSWORD"
 set :git_enable_submodules, 1 # if you have vendored rails
 set :scm_verbose, true

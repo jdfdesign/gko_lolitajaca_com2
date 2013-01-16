@@ -8,6 +8,7 @@ cd ~/Github/gko_lolitajaca_com2
 bundle install
 rails s
 
+cd ~/Github/gko_lolitajaca_com2
 bundle exec rake assets:precompile
 
 cd ~/Github/gko_lolitajaca_com2
