@@ -7342,7 +7342,7 @@ that IE7/8 do not support :nth-child.
 /* line 2, ../../../../.rvm/gems/ruby-1.8.7-p358@global/bundler/gems/gko_cms3-469af27ebe82/gko_core/app/assets/stylesheets/gko/public/_footer.scss */
 footer {
   min-height: 60px;
-  background-color: #333333;
+  background-color: white;
 }
 /* line 9, ../../../../.rvm/gems/ruby-1.8.7-p358@global/bundler/gems/gko_cms3-469af27ebe82/gko_core/app/assets/stylesheets/gko/public/_footer.scss */
 footer .nav {
@@ -7377,7 +7377,7 @@ footer .nav > li > a:hover {
 /* line 2, ../../../../.rvm/gems/ruby-1.8.7-p358@global/bundler/gems/gko_cms3-469af27ebe82/gko_core/app/assets/stylesheets/gko/public/_copyright.scss */
 #copyright-container {
   min-height: 40px;
-  background-color: #333333;
+  background-color: white;
   color: copyrightText;
   font-size: 11px;
 }
@@ -7456,7 +7456,7 @@ footer .nav > li > a:hover {
   cursor: pointer;
   padding: 0;
   margin: 0 auto;
-  background: transparent url(/assets/theme1/images/logo.png) center center no-repeat;
+  background: transparent url(/assets/logo.png) center center no-repeat;
   text-decoration: none;
   display: block;
   width: 126px;
@@ -7888,7 +7888,7 @@ h6 {
   font-style: italic;
 }
 
-/* line 108, ../../app/assets/stylesheets/public.css.scss */
+/* line 109, ../../app/assets/stylesheets/public.css.scss */
 .newsletter,
 .retailers {
   -webkit-box-sizing: border-box;
@@ -7896,16 +7896,16 @@ h6 {
   box-sizing: border-box;
 }
 
-/* line 112, ../../app/assets/stylesheets/public.css.scss */
+/* line 113, ../../app/assets/stylesheets/public.css.scss */
 .retailers {
   padding: 40px;
 }
-/* line 115, ../../app/assets/stylesheets/public.css.scss */
+/* line 116, ../../app/assets/stylesheets/public.css.scss */
 .retailers h6 {
   color: black;
 }
 
-/* line 121, ../../app/assets/stylesheets/public.css.scss */
+/* line 122, ../../app/assets/stylesheets/public.css.scss */
 .container-fluid.content > .row-fluid {
   max-width: 980px;
   display: block;
@@ -7915,7 +7915,7 @@ h6 {
   margin-bottom: 12px;
 }
 
-/* line 128, ../../app/assets/stylesheets/public.css.scss */
+/* line 129, ../../app/assets/stylesheets/public.css.scss */
 .summer-collection {
   background-size: contain;
   background-position: top left;
@@ -7924,7 +7924,7 @@ h6 {
   background-color: white;
 }
 
-/* line 139, ../../app/assets/stylesheets/public.css.scss */
+/* line 140, ../../app/assets/stylesheets/public.css.scss */
 .shop {
   background-size: contain;
   background-position: top right;
@@ -7933,13 +7933,22 @@ h6 {
   background-color: white;
 }
 
-/* line 147, ../../app/assets/stylesheets/public.css.scss */
+/* line 149, ../../app/assets/stylesheets/public.css.scss */
+.news {
+  background-size: contain;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-image: url(/assets/120608_LolitaJaca_decoupe2.jpg);
+  background-color: white;
+}
+
+/* line 156, ../../app/assets/stylesheets/public.css.scss */
 .flexslider {
   margin-top: 100px;
   margin-bottom: 12px;
 }
 
-/* line 152, ../../app/assets/stylesheets/public.css.scss */
+/* line 161, ../../app/assets/stylesheets/public.css.scss */
 .thumbnail {
   margin: 0;
   padding: 0;
@@ -7951,7 +7960,7 @@ h6 {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 158, ../../app/assets/stylesheets/public.css.scss */
+/* line 167, ../../app/assets/stylesheets/public.css.scss */
 .thumbnail .title {
   text-transform: capitalize;
   font-size: 16px;
@@ -7963,7 +7972,7 @@ h6 {
   margin: 0;
 }
 
-/* line 169, ../../app/assets/stylesheets/public.css.scss */
+/* line 178, ../../app/assets/stylesheets/public.css.scss */
 .grid.grid4 > li {
   margin-left: 0;
   width: 25%;
